@@ -1,0 +1,26 @@
+# torch==2.5.1+cu121
+# torchvision==0.20.1+cu121
+# torchaudio==2.5.1+cu121
+# --extra-index-url https://download.pytorch.org/whl/cu121
+
+
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+deep-sort-realtime>=1.3.2
+numpy>=1.24.0
+scipy>=1.10.0
+python-dateutil>=2.8.20.3
+PyYAML==6.0.1
+
+# Database / Cloud / GPU monitoring
+psycopg2-binary==2.9.9
+boto3==1.34.90
+botocore==1.34.90
+
+# Web framework & tools
+fastapi
+websockets
+uvicorn[standard]
+flake8
+httpx
+python-multipart
