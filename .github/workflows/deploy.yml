@@ -40,7 +40,7 @@ jobs:
             echo "---- Running new container with AWS creds ----"
             sudo docker run -d \
             --name shoplifting_container \
-            -p 8002:8002 \
+            -p 8003:8003 \
             --gpus all \
             -v /home/ubuntu/.aws:/root/.aws \
             shoplifting_image

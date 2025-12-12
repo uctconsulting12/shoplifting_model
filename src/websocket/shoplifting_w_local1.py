@@ -18,7 +18,7 @@ from multiprocessing import Process, Queue
 
 from PIL import Image
 
-logger = logging.getLogger("queue_monitoring")
+logger = logging.getLogger("shoplifting_monitoring")
 logger.setLevel(logging.INFO)
 
 
