@@ -9,11 +9,19 @@ from typing import Optional, Tuple, List, Dict
 from collections import defaultdict, Counter, deque
 from scipy.ndimage import gaussian_filter1d
 
+# Production
 from src.local_models.shop_lifting.config import (
     PersonOrientation, ActionType, PersonState, AlertLevel,
     ItemLocation, SystemConfig, logger, KEYPOINT
 )
 
+'''
+#Local
+from config import (
+    PersonOrientation, ActionType, PersonState, AlertLevel,
+    ItemLocation, SystemConfig, logger, KEYPOINT
+)
+'''
 
 # =============================================================================
 # BODY REGION CONCEALMENT DETECTOR (v4.1)
