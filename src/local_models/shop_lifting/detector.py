@@ -14,11 +14,19 @@ import cv2
 from ultralytics import YOLO
 from deep_sort_realtime.deepsort_tracker import DeepSort
 
+#Production
 from src.local_models.shop_lifting.config import (
     ContainerDetection, ItemDetection, ContainerType, ItemLocation,
     SystemConfig, logger
 )
 
+'''
+#Local
+from config import (
+    ContainerDetection, ItemDetection, ContainerType, ItemLocation,
+    SystemConfig, logger
+)
+'''
 
 # =============================================================================
 # CONTAINER TRACKER

@@ -20,9 +20,9 @@ from inference import run_inference
 # =============================================================================
 
 # Your video path
-#VIDEO_PATH = r"E:\UTC project\utc\cctv\CCTV_Project\Darshil\3nov2025\Transformer Testing Theft\Pose Detection MEthod\23Nov2025\Test7.mp4"
-#VIDEO_PATH = r"E:\UTC project\utc\cctv\CCTV_Project\Darshil\3nov2025\Transformer Testing Theft\Kaggel Model\V1Th.mp4"
-VIDEO_PATH = r"E:\UTC project\utc\cctv\CCTV_Project\Darshil\3nov2025\Transformer Testing Theft\Pose Detection MEthod\23Nov2025\thftDect2.mp4"
+#VIDEO_PATH = r"E:\UTC project\utc\cctv\CCTV_Project\Darshil\3nov2025\Transformer Testing Theft\Pose Detection MEthod\23Nov2025\Test1.mp4"
+#VIDEO_PATH = r"E:\UTC project\utc\cctv\CCTV_Project\Darshil\3nov2025\Transformer Testing Theft\Kaggel Model\V5Th.mp4"
+VIDEO_PATH = r"E:\UTC project\utc\cctv\CCTV_Project\Darshil\3nov2025\Transformer Testing Theft\Pose Detection MEthod\23Nov2025\thftDect.mp4"
 
 # Camera settings
 CAM_ID = 123
